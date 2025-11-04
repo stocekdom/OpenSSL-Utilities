@@ -7,5 +7,5 @@ All utilities require OpenSSL library
 
 Than u can compile the utility with this command
 
-> g++ -Wall -pedantic -g <filename>.cpp -lcrypto
+> g++ -Wall -pedantic -g \<filename\>.cpp -lcrypto
 
