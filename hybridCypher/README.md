@@ -1,11 +1,11 @@
-#Hybrid Encryption Utility
-##Overview
+# Hybrid Encryption Utility
+## Overview
 
 This project implements hybrid encryption and decryption using OpenSSL.
 It provides two main functions, seal and open, which securely encrypt and decrypt data files.
 The solution follows the OpenSSL hybrid encryption model using symmetric encryption for data and asymmetric encryption (RSA) for the symmetric key.
 
-##Process:
+## Process:
 
 1. The input file is encrypted with this symmetric key.
 
@@ -19,7 +19,7 @@ The solution follows the OpenSSL hybrid encryption model using symmetric encrypt
 
 2. The data is decrypted using the recovered symmetric key and IV.
 
-##File Structure
+## File Structure
 | Offset |Size |Type | Description |
 |--------|-----|------|-------------|
 | 0 |4 bytes | int | NID - Numerical identifier of the used symmetric cipher |
